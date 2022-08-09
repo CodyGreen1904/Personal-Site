@@ -1,0 +1,17 @@
+@media (max-width: 575px) {
+  .btn {
+    height: 30px;
+    width: 55px;
+    font-size: 13px;
+    padding-left: 4px;
+  }
+}
+.btn {
+  background-color: var(--dark_dark_blue) !important;
+}
+#collapseContainer {
+  padding-left: 0;
+}
+.creditsP {
+  margin-bottom: 0;
+}

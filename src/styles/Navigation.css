@@ -1,0 +1,31 @@
+#logo {
+  width: 65px;
+  height: 75px;
+  border-radius: 25px;
+  outline-style: double;
+  outline-color: var(--wheat);
+  margin-left: 5px;
+}
+#navbar {
+  background-color: var(--dark_dark_blue);
+  border-bottom: 2px solid var(--wheat);
+  padding: 0%;
+}
+.nav_text {
+  color: var(--light_blue);
+}
+.nav_text:hover {
+  color: #f5deb3;
+}
+#Home_Icon {
+  font-size: 2em;
+  color: black;
+}
+.toggle {
+  border-color: var(--light_blue);
+  margin-right: 1em;
+  background-color: var(--blue);
+}
+#mainNav {
+  justify-content: right;
+}

@@ -1,0 +1,58 @@
+#aboutContainer {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  min-height: 700px;
+  text-align: center;
+  padding: 3vw;
+  background-color: var(--blue);
+}
+.container2 {
+  background-color: rgba(186, 225, 250, 0.5);
+  height: fit-content;
+  border-radius: 15px;
+  padding: 2em 4em 2em 4em;
+}
+#codyPic {
+  border-radius: 50%;
+  outline-color: rgba(200, 225, 250, 0.5);
+  outline-width: 1em;
+  outline-style: solid;
+  margin-bottom: 1em;
+}
+#aboutWrapper {
+  padding: 0;
+  background-color: var(--blue);
+}
+.mainHeader,
+.aboutColumn {
+  background-color: var(--dark_blue);
+  color: var(--wheat);
+  border-radius: 5px;
+  margin-top: 1%;
+  text-align: center;
+  outline: solid var(--wheat);
+  margin-top: 1%;
+  box-shadow: 5px 5px 2px 5px grey;
+}
+.aboutColumn {
+  padding-top: 5px;
+}
+.mainHeader,
+.subHeader {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: bolder;
+}
+@media (max-width: 575px) {
+  .aboutColumn {
+    margin-top: 20px !important;
+  }
+  #aboutContainer {
+    min-height: 1000px;
+  }
+}
+@media (min-width: 575px) and (max-width: 991px) {
+  .subHeader {
+    font-size: 16px !important;
+  }
+}

@@ -1,0 +1,50 @@
+.projectList {
+  text-align: left;
+}
+.projectListItem {
+  text-align: left;
+  list-style-image: url("../img/correct.png");
+  margin-bottom: 5px;
+}
+#projContainer {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: 3vw;
+  background-color: var(--blue);
+}
+.projectLink {
+  color: white;
+}
+.projectLink:hover {
+  color: var(--wheat);
+}
+.mainHeader,
+.projCol {
+  background-color: var(--dark_blue);
+  color: var(--wheat);
+  border-radius: 5px;
+  margin-top: 1%;
+  text-align: center;
+  outline: solid var(--wheat);
+  margin-top: 1%;
+  box-shadow: 5px 5px 2px 5px grey;
+}
+.projCol {
+  padding-top: 5px;
+}
+
+@media (max-width: 575px) {
+  .projCol {
+    margin-top: 20px !important;
+  }
+  #projContainer {
+    min-height: 1000px;
+  }
+}
+@media (min-width: 575px) and (max-width: 991px) {
+  .subHeader {
+    font-size: 16px !important;
+  }
+}

@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.footerIcon {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+#credCol {
+  text-align: right;
+}
+@media (max-width: 575px) {
+  .footerIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .footer {
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+  #credCol {
+    text-align: left;
+  }
+}
