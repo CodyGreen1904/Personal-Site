@@ -55,6 +55,13 @@ class Credits extends Component {
             >
               Correct icons created by kliwir art - Flaticon
             </a>
+            <a target="_blank" href="https://icons8.com/icon/54601/cg">
+              CG
+            </a>{" "}
+            icon by{" "}
+            <a target="_blank" href="https://icons8.com">
+              Icons8
+            </a>
           </div>
         </Collapse>
       </div>
