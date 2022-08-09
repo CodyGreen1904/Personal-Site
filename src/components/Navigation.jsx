@@ -7,23 +7,23 @@ function Navigation() {
   return (
     <Navbar id="navbar" collapseOnSelect sticky="top" expand="md">
       <Navbar.Brand className="d-sm-block p-3 col-sm-3">
-        <Nav.Link href="/">
+        <Nav.Link href="/personal-site/">
           <img id="logo" src={title} alt="Site logo" />
         </Nav.Link>
       </Navbar.Brand>
       <Navbar.Toggle className="toggle" aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav id="mainNav" className="container-fluid text-center">
-          <Nav.Link className="nav_text" href="/">
+          <Nav.Link className="nav_text" href="/personal-site">
             About
           </Nav.Link>
-          <Nav.Link className="nav_text" href="/PreviousWork">
+          <Nav.Link className="nav_text" href="/personal-site/PreviousWork">
             Previous Work
           </Nav.Link>
-          <Nav.Link className="nav_text" href="/Projects">
+          <Nav.Link className="nav_text" href="/personal-site/Projects">
             Projects
           </Nav.Link>
-          <Nav.Link className="nav_text" href="/Contact">
+          <Nav.Link className="nav_text" href="/personal-site/Contact">
             Contact
           </Nav.Link>
         </Nav>
