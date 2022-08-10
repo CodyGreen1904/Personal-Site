@@ -58,10 +58,22 @@ class Credits extends Component {
             <a target="_blank" href="https://icons8.com/icon/54601/cg">
               CG
             </a>{" "}
-            icon by{" "}
-            <a target="_blank" href="https://icons8.com">
-              Icons8
-            </a>
+            <p className="linkSentence">
+              icon by{" "}
+              <a target="_blank" href="https://icons8.com">
+                Icons8
+              </a>
+            </p>
+            <p className="linkSentence">
+              Photo by{" "}
+              <a href="https://unsplash.com/@filipz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                Filip Zrnzević
+              </a>{" "}
+              on{" "}
+              <a href="https://unsplash.com/s/photos/forest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                Unsplash
+              </a>
+            </p>
           </div>
         </Collapse>
       </div>

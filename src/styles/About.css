@@ -1,11 +1,14 @@
 #aboutContainer {
   box-sizing: border-box;
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
   min-height: 700px;
+  border-radius: 10px;
   text-align: center;
   padding: 3vw;
-  background-color: var(--blue);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: var(--dark_dark_blue);
 }
 .container2 {
   background-color: rgba(186, 225, 250, 0.5);
@@ -22,7 +25,11 @@
 }
 #aboutWrapper {
   padding: 0;
-  background-color: var(--blue);
+  background-image: url("../img/trees.jpg");
+  background-attachment: fixed;
+  background-repeat: cover;
+  padding-bottom: 2em;
+  min-height: 100vh;
 }
 .mainHeader,
 .aboutColumn {

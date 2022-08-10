@@ -32,7 +32,7 @@ function Contact() {
   return (
     <div id="aboutWrapper">
       <Navigation />
-      <div className="container" id="aboutContainer">
+      <div className="container" id="projContainer">
         <Container fluid="sm" className="container2">
           <form className="form" ref={form} onSubmit={sendEmail}>
             <h1 className="contactHeader">Contact Me</h1>

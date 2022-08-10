@@ -7,7 +7,7 @@ import "../styles/PreviousWork.css"
 
 function PreviousWork() {
   return (
-    <div id="aboutWrapper">
+    <div id="previousWrapper">
       <Navigation />
       <div className="container" id="prevContainer">
         <Container fluid="sm" className="container2">

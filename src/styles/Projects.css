@@ -9,10 +9,13 @@
 #projContainer {
   box-sizing: border-box;
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
   text-align: center;
   padding: 3vw;
-  background-color: var(--blue);
+  background-color: var(--dark_dark_blue);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 10px;
 }
 .projectLink {
   color: white;
@@ -38,9 +41,6 @@
 @media (max-width: 575px) {
   .projCol {
     margin-top: 20px !important;
-  }
-  #projContainer {
-    min-height: 1000px;
   }
 }
 @media (min-width: 575px) and (max-width: 991px) {
