@@ -38,41 +38,50 @@ function Contact() {
               Once you hit submit I should recieve the email immediately, and I
               will respond as soon as I am able
             </h5>
-            <Row>
+            <Row className="form-group">
               <Col sm={3}>
-                <label htmlFor="from_name">Name</label>
+                <label className="control-label" htmlFor="from_name">
+                  Name
+                </label>
               </Col>
               <Col sm={9}>
                 <input
                   placeholder="Your Name Here"
                   type="text"
+                  id="from_name"
                   name="from_name"
-                  className="formInput"
+                  className="formInput form-control"
                 />
               </Col>
             </Row>
             <Row>
               <Col sm={3}>
-                <label htmlFor="replyTo">Email</label>
+                <label className="control-label" htmlFor="reply_to">
+                  Email
+                </label>
               </Col>
               <Col sm={9}>
                 <input
                   placeholder="you@email.com"
                   type="email"
+                  id="reply_to"
                   name="reply_to"
-                  className="formInput"
+                  className="formInput form-control"
                 />
               </Col>
             </Row>
             <Row>
               <Col sm={3}>
-                <label htmlFor="message">Message</label>
+                <label className="control-label" htmlFor="message">
+                  Message
+                </label>
               </Col>
               <Col sm={9}>
                 <textarea
                   placeholder="What's up?"
+                  id="message"
                   name="message"
-                  className="formInput"
+                  className="formInput from-control"
                 />
               </Col>
             </Row>
