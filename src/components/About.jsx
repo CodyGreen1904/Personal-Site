@@ -11,7 +11,7 @@ function About() {
       <Navigation />
       <div className="container" id="aboutContainer">
         <Container fluid="sm" className="container2">
-          <img src={title} alt="Cody" width="250" height="250" id="codyPic" />
+          <img src={title} alt="Cody" width="300" height="300" id="codyPic" />
           <h1 className="mainHeader">CODY MICHAEL GREEN</h1>
           <h2 className="subHeader">SOFTWARE ENGINEER</h2>
           <Row>
