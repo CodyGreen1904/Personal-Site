@@ -30,7 +30,7 @@
   border-radius: 5px;
   margin-top: 1%;
   text-align: center;
-  outline: solid var(--wheat);
+  border: solid var(--wheat) 0.1em;
   margin-top: 1%;
   box-shadow: 5px 5px 2px 5px grey;
 }

@@ -9,7 +9,7 @@
 .formInput {
   width: 100%;
   margin-bottom: 1em;
-  outline: solid var(--wheat);
+  border: solid var(--wheat) 0.2em;
   border-radius: 5px;
 }
 label {
@@ -22,7 +22,7 @@ label {
   border-radius: 5px;
   margin-top: 1%;
   text-align: center;
-  outline: solid var(--wheat);
+  border: solid var(--wheat) 0.1em;
 }
 #submitBtn {
   border-radius: 5px;
