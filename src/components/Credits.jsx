@@ -82,3 +82,5 @@ class Credits extends Component {
 }
 
 export default Credits
+
+//Used this site for reference:https://codesandbox.io/s/l3pxzo35v7

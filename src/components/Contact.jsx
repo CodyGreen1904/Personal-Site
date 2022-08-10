@@ -89,3 +89,5 @@ function Contact() {
   )
 }
 export default Contact
+
+//Used this site to help with Emailjs: https://www.emailjs.com/docs/examples/reactjs/
