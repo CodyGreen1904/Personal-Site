@@ -18,10 +18,10 @@ function About() {
             <Col className="aboutColumn" sm={5}>
               <h2 className="subHeader">PERSONALLY</h2>
               <p className="codyParagraph">
-                Hello, my name is Cody Green and I'm a graduate of Portalnd
+                Hello, my name is Cody Green and I'm a graduate of Portland
                 State University. I enjoy spending time with my family, getting
-                outside with my friends, and playing video games in my spare
-                time.
+                outside with my friends, playing music, and playing video games
+                in my spare time.
               </p>
             </Col>
             <Col sm={2}></Col>
