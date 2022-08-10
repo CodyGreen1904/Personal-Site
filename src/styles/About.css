@@ -2,7 +2,7 @@
   box-sizing: border-box;
   width: 100vw;
   height: fit-content;
-  min-height: 700px;
+  min-height: 100vh;
   border-radius: 10px;
   text-align: center;
   padding: 3vw;
@@ -53,9 +53,6 @@
 @media (max-width: 575px) {
   .aboutColumn {
     margin-top: 20px !important;
-  }
-  #aboutContainer {
-    min-height: 1000px;
   }
 }
 @media (min-width: 575px) and (max-width: 991px) {
