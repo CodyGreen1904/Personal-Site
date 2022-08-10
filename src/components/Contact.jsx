@@ -35,8 +35,8 @@ function Contact() {
           <form className="form" ref={form} onSubmit={sendEmail}>
             <h1 className="contactHeader">Contact Me</h1>
             <h5 className="contactSubHeader">
-              Once you hit submit I should recieve the email immediately, and I
-              will respond as soon as I am able
+              Once submitted I should receive the email immediately, and I will
+              respond as soon as I am able
             </h5>
             <Row className="form-group">
               <Col sm={3}>

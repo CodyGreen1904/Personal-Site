@@ -39,4 +39,10 @@ label {
   font-weight: bolder;
   color: var(--light_blue);
   text-align: center;
+  font-size: 16px;
+}
+@media (max-width: 991px) {
+  .contactSubHeader {
+    font-size: 10px !important;
+  }
 }
