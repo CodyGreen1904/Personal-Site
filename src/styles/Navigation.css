@@ -2,8 +2,9 @@
   width: 65px;
   height: 75px;
   border-radius: 25px;
-  outline-style: double;
-  outline-color: var(--wheat);
+  border-style: double;
+  border-color: var(--wheat);
+  border-width: 0.2em;
   margin-left: 5px;
 }
 #navbar {

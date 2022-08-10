@@ -21,7 +21,7 @@
   border-style: solid;
   border-color: rgba(200, 225, 250, 0.5);
   border-width: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   transform: translateZ(0);
 }
 #aboutWrapper {
@@ -54,6 +54,10 @@
 @media (max-width: 575px) {
   .aboutColumn {
     margin-top: 20px !important;
+  }
+  .container2 {
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
 @media (min-width: 575px) and (max-width: 991px) {
