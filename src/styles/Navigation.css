@@ -17,9 +17,6 @@
 .nav_text:hover {
   color: #f5deb3;
 }
-.nav_text:visited {
-  color: white;
-}
 #Home_Icon {
   font-size: 2em;
   color: black;
